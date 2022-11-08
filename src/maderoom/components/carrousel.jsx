@@ -1,4 +1,4 @@
-export const carrousel = () => {
+export const Carrousel = () => {
   return (
     <div>carrousel</div>
   )
