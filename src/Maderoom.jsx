@@ -1,5 +1,7 @@
+import { AppRouter } from "./router/AppRouter"
+
 export const Maderoom = () => {
     return (
-        <div>maderoom</div>
+        <AppRouter/>
     )
 }
