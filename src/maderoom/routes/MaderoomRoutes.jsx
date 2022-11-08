@@ -7,7 +7,7 @@ export const MaderoomRoutes = () => {
         <>
             <Navbar/>
 
-            <Carrousel/>
+            {/* <Carrousel/> */}
 
             <div className="container">
 
