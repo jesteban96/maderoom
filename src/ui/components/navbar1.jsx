@@ -15,11 +15,11 @@ export const NAVBARFIRT = () => {
                      <img src='../../../public/LOGO/menu4.png' alt="MadeRoom"  />
                     </button>
 
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
 
                           <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">MADE ROOM</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
 
                           <div className="offcanvas-body " id="navbarSupportedContent">
@@ -51,7 +51,7 @@ export const NAVBARFIRT = () => {
                                     </li>
                                   </ul> 
                                   <div className="offcanvas-header  ">
-                                    <h5 className="offcanvas-title d-grid gap-2 col-6 mx-auto " id="offcanvasDarkNavbarLabel"><button type="button" class="btn btn-success">LOGIN</button></h5>
+                                    <h5 className="offcanvas-title d-grid gap-2 col-6 mx-auto " id="offcanvasDarkNavbarLabel"><button type="button" className="btn btn-success">LOGIN</button></h5>
  
                                   </div>
                                   <div className="offcanvas user d-flex justify-content-end flex-row "><div className=''><img src='../../../public/LOGO/user2.png' alt=""  /> </div></div>
