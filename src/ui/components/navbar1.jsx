@@ -10,16 +10,10 @@ export const NAVBARFIRT = () => {
               <div className="container-fluid">
                 
                 <a className="navbar-brand" href="#"><img src='../../../public/LOGO/logo3.png' alt="MadeRoom"  /></a>
-                {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon  color"></span>
-                </button> */}
-
-                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+    
+                     <button className="navbar-toggler flota " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                       <span className="navbar-toggler-icon"></span>
                     </button>
-                
-                
-          
 
                     <div class="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
 
@@ -50,12 +44,11 @@ export const NAVBARFIRT = () => {
                                       </ul>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link  color">Contactanos</a> {/* disabled */}
+                                      <a className="nav-link color" href="#">Contactanos</a>
                                     </li>
                                     <li className="nav-item ms-auto ">
                                       
                                     </li>
-                                  
                                   </ul> 
                                   <div className="offcanvas-header  ">
                                     <h5 className="offcanvas-title d-grid gap-2 col-6 mx-auto " id="offcanvasDarkNavbarLabel"><button type="button" class="btn btn-success">LOGIN</button></h5>

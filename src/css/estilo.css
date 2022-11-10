@@ -22,6 +22,12 @@ body {
   .color-b a:active {
     color: #b2caff; }
 
+nav .flota {
+  background: #888888;
+  position: fixed;
+  top: 10;
+  left: 100;
+  right: 20px; }
 nav img {
   margin-left: 20px;
   width: 40px; }
