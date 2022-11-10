@@ -23,8 +23,8 @@ export const NAVBARFIRT = () => {
 
                     <div class="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
 
-                          <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MADE ROOM</h5>
+                          <div className="offcanvas-header">
+                            <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">MADE ROOM</h5>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
 
@@ -57,8 +57,8 @@ export const NAVBARFIRT = () => {
                                     </li>
                                   
                                   </ul> 
-                                  <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><button type="button" class="btn btn-success">LOGIN</button></h5>
+                                  <div className="offcanvas-header  ">
+                                    <h5 className="offcanvas-title d-grid gap-2 col-6 mx-auto " id="offcanvasDarkNavbarLabel"><button type="button" class="btn btn-success">LOGIN</button></h5>
  
                                   </div>
                                   <div className="offcanvas user d-flex justify-content-end flex-row "><div className=''><img src='../../../public/LOGO/user2.png' alt=""  /> </div></div>
