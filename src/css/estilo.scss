@@ -41,12 +41,15 @@ nav {
         &:focus{
             border-color: #161934;
         }
-
-        img {
-            width: 40px;
-        }
+        
+            img {
+                width: 40px;
+                margin-left: 0px;
+            }
+        
+        
     }
-     .navbar-brand img {
+      img {
       margin-left: 20px;
       width: 40px;
       

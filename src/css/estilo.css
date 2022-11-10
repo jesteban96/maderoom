@@ -33,8 +33,9 @@ nav .flota {
   nav .flota:focus {
     border-color: #161934; }
   nav .flota img {
-    width: 40px; }
-nav .navbar-brand img {
+    width: 40px;
+    margin-left: 0px; }
+nav img {
   margin-left: 20px;
   width: 40px; }
 nav li {

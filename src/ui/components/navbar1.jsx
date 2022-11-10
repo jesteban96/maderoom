@@ -11,7 +11,7 @@ export const NAVBARFIRT = () => {
                 
                 <a className="navbar-brand" href="#"><img src='../../../public/LOGO/logo3.png' alt="MadeRoom"  /></a>
     
-                     <button className="navbar-toggler flota d-flex justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                     <button className="navbar-toggler flota" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                      <img src='../../../public/LOGO/menu4.png' alt="MadeRoom"  />
                     </button>
 
