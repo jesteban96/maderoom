@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { Maderoom } from './maderoom'
 
-import './index.css'
+import './css/estilo.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
