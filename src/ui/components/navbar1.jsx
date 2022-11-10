@@ -1,6 +1,9 @@
 import React from 'react'
 
 export const NAVBARFIRT = () => {
+
+
+
   return (
    <>
    <nav className="navbar navbar-dark  navbar-expand-lg  color-b">
@@ -18,7 +21,7 @@ export const NAVBARFIRT = () => {
                 
           
 
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             
                           <div className="offcanvas-body" id="navbarSupportedContent">
                                   <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 ">
