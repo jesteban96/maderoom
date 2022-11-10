@@ -11,8 +11,8 @@ export const NAVBARFIRT = () => {
                   <span className="navbar-toggler-icon  color"></span>
                 </button> */}
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                      <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                      <span className="navbar-toggler-icon"></span>
                     </button>
                 
                 
@@ -49,7 +49,7 @@ export const NAVBARFIRT = () => {
                                     </li>
                                   
                                   </ul>
-                                {/*  <div className="user"><img src='../../../public/LOGO/user2.png' alt=""  /> </div> */}
+                                  <div className="user"><img src='../../../public/LOGO/user2.png' alt=""  /> </div> 
                           </div>
                     </div>
             </div>
