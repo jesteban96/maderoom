@@ -36,7 +36,7 @@ export const NAVBARFIRT = () => {
                                       <a className="nav-link dropdown-toggle color " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Proyectos
                                       </a>
-                                      <ul className="dropdown-menu animate__animated animate__fadeInDown">
+                                      <ul className="dropdown-menu animate__animated animate__fadeInRight">
                                         <li><a className="dropdown-item" href="#">Cocinas</a></li>
                                         <li><a className="dropdown-item" href="#">Closet</a></li>
                                         <li><a className="dropdown-item" href="#">Bar</a></li>
