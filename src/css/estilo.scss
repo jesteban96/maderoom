@@ -85,7 +85,7 @@ section{
    
 
        .foto{
-        width: 800px;
+        width: 1000px;
         height: 400px;
         position: relative;
         left: 0;
@@ -130,22 +130,33 @@ section{
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 800px) {
 	
-	.main .acerca-de .foto {
-		position: relative;
-		width: 100%;
-	}
+	 
+        .acerca-de{ 
+            .foto {
+                position: relative;
+                width: 100%;
+            }
+        } 
+        
+    
+	
+	
 
-	.main .acerca-de article {
-		position: relative;
-		width: 100%;
-		top:-50px;
-		transform: translate(0px, 0);
-	}
+        .acerca-de{ 
+            article {
+                position: relative;
+                width: 100%;
+                top:-50px;
+                transform: translate(0px, 0);
+        } 
+        
+   
+	
 
 	
-}
+}}
     
     
    
