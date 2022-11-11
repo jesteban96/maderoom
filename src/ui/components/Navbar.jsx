@@ -12,8 +12,6 @@ export const Navbar = () => {
     
        <>
        <NAVBARFIRT/>
-       
-
       </>
     )
 }
