@@ -21,35 +21,83 @@ body {
   .color-b a:active {
     color: #b2caff; }
 
-nav .flota {
-  padding: 0;
-  margin: 0;
-  background: #88888800;
-  position: fixed;
-  top: 10;
-  left: 100;
-  right: 20px; }
-  nav .flota:focus {
-    border-color: #161934; }
-  nav .flota img {
-    width: 40px;
-    margin-left: 0px; }
-nav img {
-  margin-left: 20px;
-  width: 40px; }
-nav li {
-  color: #f6efff; }
-nav .menu:hover {
-  padding: 0 0 0 0; }
-nav .user {
-  margin-right: 15px; }
+nav {
+  z-index: 3; }
+  nav .flota {
+    padding: 0;
+    margin: 0;
+    background: #88888800;
+    position: fixed;
+    top: 10;
+    left: 100;
+    right: 20px; }
+    nav .flota:focus {
+      border-color: #161934; }
+    nav .flota img {
+      width: 40px;
+      margin-left: 0px; }
+  nav img {
+    margin-left: 20px;
+    width: 40px; }
+  nav li {
+    color: #f6efff; }
+  nav .menu:hover {
+    padding: 0 0 0 0; }
+  nav .user {
+    margin-right: 15px; }
 
 /* ----------- ACERCA DE ------------- */
-section img {
-  background: url("../../LOGO/acer.jpg") #e0e7eb;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  max-height: 500px; }
+section {
+  /*  background: url('../../LOGO/acer.jpg') #a7a8a8;
+   background-repeat: no-repeat;
+   background-position: 10% 20%;
+   background-size: cover ;
+   width: 100%;
+   min-height: 500px ;
+   max-height: 900px; */ }
+  section .foto {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 00px;
+    z-index: 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    section .foto img {
+      width: 100%;
+      max-height: 400px;
+      vertical-align: top; }
+  section article {
+    background: #fff;
+    box-shadow: 10px 5px 5px black;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    float: right;
+    /*top: 30px;*/
+    top: 500px;
+    /*Con Parallax*/
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    section article h3 {
+      font-size: 50px;
+      font-weight: 300;
+      margin-bottom: 40px; }
+    section article p {
+      line-height: 28px;
+      margin-bottom: 15px; }
+
+@media screen and (max-width: 300px) {
+  .main .acerca-de .foto {
+    position: relative;
+    width: 100%; }
+
+  .main .acerca-de article {
+    position: relative;
+    width: 100%;
+    top: -50px;
+    transform: translate(0px, 0); } }
 
 /*# sourceMappingURL=estilo.css.map */

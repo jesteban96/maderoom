@@ -30,7 +30,7 @@ export const NAVBARFIRT = () => {
                                       <a className=" nav-link  color " aria-current="page" href="#">Home</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link color" href="#">Nosotros</a>
+                                      <a className="nav-link color" href="#acerca-de">Nosotros</a>
                                     </li>
                                     <li className="nav-item dropdown color">
                                       <a className="nav-link dropdown-toggle color " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -30,7 +30,7 @@ body {
     }
 
 nav {
-    
+    z-index: 3;
     .flota{
         padding: 0 ;
         margin: 0 ;
@@ -74,13 +74,77 @@ nav {
 
 /* ----------- ACERCA DE ------------- */
 section{
-   img{
-    background: url('../../LOGO/acer.jpg') #e0e7eb;
+  
+   /*  background: url('../../LOGO/acer.jpg') #a7a8a8;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 10% 20%;
+    background-size: cover ;
     width: 100%;
-    max-height: 500px;
-   }
+    min-height: 500px ;
+    max-height: 900px; */
+   
+
+       .foto{
+        width: 800px;
+        height: 400px;
+        position: relative;
+        left: 0;
+        top:00px;
+        z-index: 0;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+        box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+        img{
+            width: 100%;
+            max-height: 400px;
+	        vertical-align: top;
+        }
+        
+
+
+       }
+       article {
+        background: #fff;
+        box-shadow: 10px 5px 5px black;
+        padding: 40px;
+        width: 50%;
+        position: relative;
+        float: right;
+        /*top: 30px;*/
+        top: 500px; /*Con Parallax*/
+        z-index: 1;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+        box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+        h3 {
+            font-size: 50px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        p {
+            line-height: 28px;
+            margin-bottom: 15px;
+        
+        }
+    }
+      
+        
+
+}
+
+@media screen and (max-width: 300px) {
+	
+	.main .acerca-de .foto {
+		position: relative;
+		width: 100%;
+	}
+
+	.main .acerca-de article {
+		position: relative;
+		width: 100%;
+		top:-50px;
+		transform: translate(0px, 0);
+	}
+
+	
 }
     
     
