@@ -12,28 +12,28 @@ export const Carrousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="../../../public/closet/1.png" className="d-block w-100 img-fluid" alt="Oficina"/>
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block caption-bg">
               <h2>Remodela cada espacio de tu oficina y de tu hogar</h2>
               <p className="fs-3">Contactanos para cotizar tus diseños personalizados</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src="../../../public/closet/2.png" className="d-block w-100 img-fluid" alt="Escritorio"/>
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block caption-bg-2">
               <h2>Diseña tu propio escritorio a tu gusto</h2>
               <p className="fs-3">Escritorios Maderoom</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src="../../../public/closet/3.png" className="d-block w-100 img-fluid" alt="Cocina"/>
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block caption-bg-3">
               <h2>Diseña tu cocina a tu gusto</h2>
               <p className="fs-3">Cocinas Maderoom</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src="../../../public/closet/4.png" className="d-block w-100 img-fluid" alt="..."/>
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block caption-bg-3">
               <h2>Diseña tu cocina a tu gusto</h2>
               <p className="fs-3">Cocinas Maderoom</p>
             </div>
