@@ -8,21 +8,8 @@ export const MaderoomRoutes = () => {
     return (
         <>
             <Navbar/>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            <div>hola2</div>
-            {/* <Carrousel/> */}
+            
+            <Carrousel/>
 
             <ACERCADE/>
 
