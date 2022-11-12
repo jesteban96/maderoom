@@ -16,7 +16,7 @@ export const ITEMCARD = ({e}) => {
     disminuir
 
     } = getcontador([url, url2, url3])
-    console.log(num)
+    // console.log(num)
      return (
     <>
      
