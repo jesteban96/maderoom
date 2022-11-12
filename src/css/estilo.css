@@ -105,7 +105,7 @@ section {
   height: 400px;
   position: absolute;
   margin-left: 20px;
-  z-index: 3; }
+  z-index: 1; }
 
 @media screen and (max-width: 800px) {
   .acerca-de .foto {
@@ -116,6 +116,10 @@ section {
     position: relative;
     width: 100%;
     top: -50px;
+    transform: translate(0px, 0); }
+  .acerca-de .proyecto {
+    position: absolute;
+    padding-top: 100px;
     transform: translate(0px, 0); } }
 
 /*# sourceMappingURL=estilo.css.map */

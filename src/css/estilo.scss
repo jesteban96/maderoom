@@ -158,7 +158,7 @@ section{
    position: absolute;
     
    margin-left: 20px;
-    z-index: 3;
+    z-index: 1;
   
 }
 
@@ -183,7 +183,12 @@ section{
                 transform: translate(0px, 0);
         } 
         
-   
+        .proyecto{
+            position: absolute;
+            padding-top: 100px;
+            transform: translate(0px, 0);
+            
+        }
 	
 
 	

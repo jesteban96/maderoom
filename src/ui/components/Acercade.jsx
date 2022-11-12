@@ -8,7 +8,7 @@ export const ACERCADE = () => {
     <section className="acerca-de" id="acerca-de">
 			<div className="contenedor">
 				<div className="foto">
-				<img src='../../../LOGO/acer.jpg' alt="imagen acerca de" />
+				<img className='img-fuid' src='../../../LOGO/acer.jpg' alt="imagen acerca de" />
 				</div>
 				<article>
 					{/* <div className='d-flex justify-content-center animate__animated animate__fadeInRight'>

@@ -15,7 +15,7 @@ export const PROYECTOS = () => {
        
   return (
     <>
-    <div className="container proyecto">
+    <div className="container proyecto margen">
         <div className="row my-5 ">
                 <div className="col-12">
                     <p className="h3 text-center "> PROYECTO </p>
