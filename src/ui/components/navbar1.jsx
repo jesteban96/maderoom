@@ -38,7 +38,7 @@ export const NAVBARFIRT = () => {
                                       </a>
                                       <ul className="dropdown-menu animate__animated animate__fadeInRight">
                                         <li><a className="dropdown-item" href="#">Cocinas</a></li>
-                                        <li><a className="dropdown-item" href="#">Closet</a></li>
+                                        <li><a className="dropdown-item" href="#closet">Closet</a></li>
                                         <li><a className="dropdown-item" href="#">Bar</a></li>
                                         <li><a className="dropdown-item" href="#">Otros espacios</a></li>
                                       </ul>

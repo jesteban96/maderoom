@@ -18,12 +18,15 @@ export const ACERCADE = () => {
 					</div> */}
 
 					<h3>NOSOTROS...</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<p> Somos una empresa dedicada al Diseño e instalacion de muebles para tu hogar, contamos con dos años de experiensa en el ensamble de muebles para cocinas, cuartos, baños y otros espacio de tu hogar.  </p>
+					<p>
+						Al adquirir nuestros servicios contaras primero con una imagen Foto-Realista del espacio y del mueble a remodelar, una vez que el diseño este aprovado se procede a la etapa de cotizacion y finalmente al ensamble del espacio.
+					</p>
+					<a href="">Proyectos cotizados</a>
 				</article>
 			</div>
 		</section>
+		
        
     </>
   )

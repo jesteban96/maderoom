@@ -103,6 +103,7 @@ section{
 
        }
        article {
+        
         background: #fff;
         box-shadow: 10px 5px 5px black;
         padding: 40px;
@@ -116,6 +117,7 @@ section{
         box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
         
         img{
+           
             width: 30%;
             max-height: 180px;
             margin-bottom: 0PX;
@@ -135,12 +137,29 @@ section{
             font-family: 'Roboto', sans-serif;
             line-height: 28px;
             margin-bottom: 15px;
-        
+
         }
+        
     }
       
         
 
+}
+
+
+
+/* --------------------Proyectos------------------*/
+
+
+.proyecto{
+    margin-top:100px;
+    width: 1000px;
+    height: 400px;
+   position: absolute;
+    
+   margin-left: 20px;
+    z-index: 3;
+  
 }
 
 @media screen and (max-width: 800px) {
@@ -153,8 +172,7 @@ section{
             }
         } 
         
-    
-	
+        
 	
 
         .acerca-de{ 
