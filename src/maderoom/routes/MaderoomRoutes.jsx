@@ -12,9 +12,8 @@ export const MaderoomRoutes = () => {
             <div>
 
                 <Routes>
-
                     <Route path="" element={<MaderoomApp/>}/>
-                    <Route path="/Contactanos" element={<Contactanos/>}/>
+                    <Route path="Contactanos" element={<Contactanos/>}/>
                 </Routes>
                 
             </div>
