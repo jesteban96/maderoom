@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
+import { Foother } from "../../ui/components/Foother";
 import { Navbar } from "../../ui/components/Navbar"
-import { Carrousel } from "../components"
 import { MaderoomApp} from "../MaderoomApp";
 
 export const MaderoomRoutes = () => {
@@ -16,6 +16,8 @@ export const MaderoomRoutes = () => {
                 </Routes>
                 
             </div>
+
+            <Foother/>  
 
         </>
     )
