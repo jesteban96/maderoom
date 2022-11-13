@@ -1,27 +1,18 @@
 import { Route, Routes } from "react-router-dom"
-import { ACERCADE } from "../../ui/components/Acercade"
-import { PROYECTOS } from "../../ui/components/Proyectos"
 import { Navbar } from "../../ui/components/Navbar"
 import { Carrousel } from "../components"
+import { MaderoomApp} from "../MaderoomApp";
 
 export const MaderoomRoutes = () => {
     return (
         <>
             <Navbar/>
             
-            <Carrousel/>
-           
-          
-            <ACERCADE/>
-
-           
-            <PROYECTOS/>
-            
-            <div className="container">
+            <div className="">
 
                 <Routes>
 
-                    <Route path="" element={<></>}/>
+                    <Route path="" element={<MaderoomApp/>}/>
                 </Routes>
                 
             </div>
