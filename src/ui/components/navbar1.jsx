@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 export const NAVBARFIRT = () => {
 
@@ -44,7 +44,8 @@ export const NAVBARFIRT = () => {
                                       </ul>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link color" href="#">Contactanos</a>
+                                      <Link className="nav-link color" to={'/Contactanos'}>Contactanos</Link>
+                                      {/* <a className="nav-link color" href="#">Contactanos</a> */}
                                     </li>
                                     <li className="nav-item ms-auto ">
                                       
