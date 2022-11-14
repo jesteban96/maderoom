@@ -6,32 +6,32 @@ export const Contactanos = () => {
 
 	const [state, setState] = useState({demo:true});
 
-	const onStepChange = (stats) => {
-        // console.log(stats);
-    };
+	// const onStepChange = (stats) => {
+    //     // console.log(stats);
+    // };
 
-	const updateForm = (key, value) => {
-        const { form } = state;
+	// const updateForm = (key, value) => {
+    //     const { form } = state;
 
-        form[key] = value;
-        setState({
-            ...state,
-            form,
-        });
-    };
+    //     form[key] = value;
+    //     setState({
+    //         ...state,
+    //         form,
+    //     });
+    // };
 
 	const setInstance = SW => setState({
         ...state,
         SW,
     });
-
+    
     const { SW, demo } = state;
 
     return (
         <>
 			<StepWizard 
 				initialStep={1}
-				onStepChange={onStepChange}
+				// onStepChange={onStepChange}
 				instance={setInstance}
 			>
 
@@ -54,6 +54,5 @@ const InstanceDemo = ({ SW }) => (
         &nbsp;
         <button className={'btn btn-secondary'} onClick={SW.nextStep}>Next Step</button>
         &nbsp;
-        
     </Fragment>
 );
