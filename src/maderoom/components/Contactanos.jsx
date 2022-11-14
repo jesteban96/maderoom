@@ -6,32 +6,18 @@ export const Contactanos = () => {
 
 	const [state, setState] = useState({demo:true});
 
-	// const onStepChange = (stats) => {
-    //     // console.log(stats);
-    // };
-
-	// const updateForm = (key, value) => {
-    //     const { form } = state;
-
-    //     form[key] = value;
-    //     setState({
-    //         ...state,
-    //         form,
-    //     });
-    // };
-
 	const setInstance = SW => setState({
         ...state,
         SW,
     });
     
     const { SW, demo } = state;
+    console.log({SW})
 
     return (
         <>
 			<StepWizard 
 				initialStep={1}
-				// onStepChange={onStepChange}
 				instance={setInstance}
 			>
 
@@ -49,10 +35,15 @@ export default Contactanos;
 /** Demo of using instance */
 const InstanceDemo = ({ SW }) => (
     <Fragment>
-        
+
+        <button className={'btn btn-secondary'} onClick={SW.firstStep}>First Step</button>
+        &nbsp;
         <button className={'btn btn-secondary'} onClick={SW.previousStep}>Previous Step</button>
         &nbsp;
         <button className={'btn btn-secondary'} onClick={SW.nextStep}>Next Step</button>
         &nbsp;
+        <button className={'btn btn-secondary'} onClick={SW.lastStep}>Last Step</button>
+        &nbsp;
+       
     </Fragment>
 );
