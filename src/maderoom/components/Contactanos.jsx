@@ -16,17 +16,20 @@ export const Contactanos = () => {
 
     return (
         <>
-			<StepWizard 
-				initialStep={1}
-				instance={setInstance}
-			>
+            <div className="animate__fadeInRight">
+                
+                <StepWizard 
+                    initialStep={1}
+                    instance={setInstance}
+                >
 
-				<Step1/>
-				<Step2/>
-				<Step3/>
+                    <Step1/>
+                    <Step2/>
+                    <Step3/>
 
-			</StepWizard>
-			{ (demo && SW) && <InstanceDemo SW={SW} /> }
+                </StepWizard>
+                { (demo && SW) && <InstanceDemo SW={SW} /> }
+            </div>
         </>
     )
 }
