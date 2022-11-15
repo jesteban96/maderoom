@@ -9,7 +9,7 @@ export const MaderoomRoutes = () => {
         <>
             <Navbar/>
             
-            <div>
+            <div >
 
                 <Routes>
                     <Route path="" element={<MaderoomApp/>}/>

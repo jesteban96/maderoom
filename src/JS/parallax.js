@@ -8,7 +8,7 @@ $(document).ready(function(){
 				'transform': 'translate(0px,' + scroll / 1 +  '%)'
 			});
 
-			$('.acerca-de article').css({
+			$('.acerca-de .nosotros').css({
 				'transform': 'translate(0px, -' + scroll / 2  + '%)'
 			});
 		}
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$(window).resize(function(){
 		var windowWidth = $(window).width();
 		if (windowWidth < 800){
-			$('.acerca-de article').css({
+			$('.acerca-de .nosotros').css({
 					'transform': 'translate(0px, 0px)'
 			});
 		}

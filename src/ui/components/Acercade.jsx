@@ -10,7 +10,7 @@ export const ACERCADE = () => {
 				<div className="foto">
 					<img className='img-fuid' src='../../../LOGO/acer.jpg' alt="imagen acerca de" />
 				</div>
-				<article>
+				<div className='nosotros'>
 					{/* <div className='d-flex justify-content-center animate__animated animate__fadeInRight'>
 						
 							<img src="../../../LOGO/acercade.png" alt="logo" />
@@ -23,7 +23,7 @@ export const ACERCADE = () => {
 						Al adquirir nuestros servicios contaras primero con una imagen Foto-Realista del espacio y del mueble a remodelar, una vez que el diseño este aprovado se procede a la etapa de cotizacion y finalmente al ensamble del espacio.
 					</p>
 					<a href="">Proyectos cotizados</a>
-				</article>
+				</div>
 			</div>
 		</section>
 		

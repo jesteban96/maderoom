@@ -15,20 +15,22 @@ export const PROYECTOS = () => {
        
   return (
     <>
-    <div className="container proyecto margen">
+    <div className="container proyecto ">
         <div className="row my-5 ">
                 <div className="col-12">
                     <p className="h3 text-center "> PROYECTO </p>
                     
                 </div>
         </div>
-        <div className="row d-flex justify-content-center">
-              
-                                {
+        <div className="row  ">
+             
+              {
                                     closet1.map((e)=>{
                                         return (<ITEMCARD key={e.id} e={e}/>)
                                     })
                                 }
+              
+                               
         </div>
     </div>
    

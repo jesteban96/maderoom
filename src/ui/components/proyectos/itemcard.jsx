@@ -22,7 +22,7 @@ export const ITEMCARD = ({e}) => {
      
          
       {/*   <div className="col-12 col-sm-6  col-md-4 col-lg-3 col opaci my-3"> */}
-			<div className="col-4"> 
+			<div className="col-12 col-md-6 col-lg-4 my-2 d-flex justify-content-between"> 
       	<div className="card"  >
                  
 					<img src={contador[num]} alt="" />

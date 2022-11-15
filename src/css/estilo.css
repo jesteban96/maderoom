@@ -68,58 +68,46 @@ section {
       width: 100%;
       max-height: 400px;
       vertical-align: top; }
-  section article {
+  section .nosotros {
     background: #fff;
-    box-shadow: 10px 5px 5px black;
     padding: 40px;
     width: 50%;
     position: relative;
-    float: right;
+    float: inline-end;
     /*top: 30px;*/
-    top: 500px;
+    top: 1615px;
     /*Con Parallax*/
     z-index: 1;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
-    section article img {
+    section .nosotros img {
       width: 30%;
       max-height: 180px;
       margin-bottom: 0PX;
       margin: auto 0px; }
-    section article h3 {
+    section .nosotros h3 {
       padding-top: 10px;
       font-family: 'Dancing Script', cursive;
       font-size: 30px;
       font-weight: 300;
       margin-bottom: 40px; }
-    section article p {
+    section .nosotros p {
       font-family: 'Raleway', sans-serif;
       font-family: 'Roboto', sans-serif;
       line-height: 28px;
       margin-bottom: 15px; }
 
 /* --------------------Proyectos------------------*/
-.proyecto {
-  margin-top: 100px;
-  width: 1000px;
-  height: 400px;
-  position: absolute;
-  margin-left: 20px;
-  z-index: 1; }
-
 @media screen and (max-width: 800px) {
   .acerca-de .foto {
-    position: relative;
     width: 100%; }
 
-  .acerca-de article {
+  .acerca-de .nosotros {
     position: relative;
     width: 100%;
     top: -50px;
     transform: translate(0px, 0); }
   .acerca-de .proyecto {
-    position: absolute;
-    padding-top: 100px;
-    transform: translate(0px, 0); } }
+    padding-top: 100px; } }
 
 /*# sourceMappingURL=estilo.css.map */
