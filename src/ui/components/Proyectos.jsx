@@ -15,6 +15,7 @@ export const PROYECTOS = () => {
        
   return (
     <>
+    <section className='proyecto'>
     <div className="container proyecto ">
         <div className="row my-5 ">
                 <div className="col-12">
@@ -34,7 +35,7 @@ export const PROYECTOS = () => {
         </div>
     </div>
    
-  
+    </section>
 
     </>
   )

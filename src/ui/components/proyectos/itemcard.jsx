@@ -17,15 +17,23 @@ export const ITEMCARD = ({e}) => {
 
     } = getcontador([url, url2, url3])
     // console.log(num)
+   
+    setTimeout(()=>{
+      
+      aumentar()
+     
+     
+    },9000)
+
      return (
     <>
      
          
       {/*   <div className="col-12 col-sm-6  col-md-4 col-lg-3 col opaci my-3"> */}
 			<div className="col-12 col-md-6 col-lg-4 my-2 d-flex justify-content-between"> 
-      	<div className="card"  >
+      	<div className="card "  >
                  
-					<img src={contador[num]} alt="" />
+					<img  className='impro' src={contador[num]} alt="" />
 					<div className="card-body">
 						<h5 className="card-title">CLOSET</h5>
 						<h6 className="card-subtitle text-muted mb-2">Diseño Foto-Realista</h6>
