@@ -1,5 +1,6 @@
 import { Fragment, useState } from "react";
 import StepWizard from "react-step-wizard";
+import { useCounter } from "../../hooks/useCounter";
 import { Step1, Step2, Step3 } from "./wizard";
 
 export const Contactanos = () => {
@@ -12,7 +13,9 @@ export const Contactanos = () => {
     });
     
     const { SW, demo } = state;
-    console.log({SW})
+
+        
+    const {counter, increment, decrement, reset} = useCounter(0);
 
     return (
         <>
@@ -23,12 +26,12 @@ export const Contactanos = () => {
                     instance={setInstance}
                 >
 
-                    <Step1/>
+                    <Step1 name="firts"/>
                     <Step2/>
                     <Step3/>
 
                 </StepWizard>
-                { (demo && SW) && <InstanceDemo SW={SW} /> }
+                { (demo && SW) && <InstanceDemo SW={SW}/> }
             </div>
         </>
     )
@@ -37,8 +40,10 @@ export default Contactanos;
 
 /** Demo of using instance */
 const InstanceDemo = ({ SW }) => (
-    <Fragment>
 
+    
+    <Fragment>
+        
         <button className={'btn btn-secondary'} onClick={SW.firstStep}>First Step</button>
         &nbsp;
         <button className={'btn btn-secondary'} onClick={SW.previousStep}>Previous Step</button>
