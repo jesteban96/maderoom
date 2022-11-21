@@ -18,7 +18,7 @@ export const MaderoomRoutes = () => {
 
                 <Routes>
 
-                    <Route path="/**" element={<MaderoomApp/>}/>
+                    <Route path="/home" element={<MaderoomApp/>}/>
 
                     <Route path="/Contactanos" element={<Contactanos/>}/>
 
