@@ -1,4 +1,6 @@
 export const Carrousel = () => {
+  const ruta = ["../../../public/closet/1.png","../../../public/closet/2.png", "../../../public/closet/3.png", "../../../public/closet/4.png"]
+  const rutaP = ["./closet/1.png","./closet/2.png", "./closet/3.png", "./closet/4.png"]
   return (
     <>
     <div className="mb-1" id="home">
@@ -11,28 +13,28 @@ export const Carrousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="../../../public/closet/1.png" className="d-block w-100 img-fluid" alt="Oficina"/>
+            <img src={rutaP[0]} className="d-block w-100 img-fluid" alt="Oficina"/>
             <div className="carousel-caption d-none d-md-block caption-bg">
               <h2>Remodela cada espacio de tu oficina y de tu hogar</h2>
               <p className="fs-3">Contactanos para cotizar tus diseños personalizados</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="../../../public/closet/2.png" className="d-block w-100 img-fluid" alt="Escritorio"/>
+            <img src={rutaP[1]} className="d-block w-100 img-fluid" alt="Escritorio"/>
             <div className="carousel-caption d-none d-md-block caption-bg-2">
               <h2>Diseña tu propio escritorio a tu gusto</h2>
               <p className="fs-3">Escritorios Maderoom</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="../../../public/closet/3.png" className="d-block w-100 img-fluid" alt="Cocina"/>
+            <img src={rutaP[2]} className="d-block w-100 img-fluid" alt="Cocina"/>
             <div className="carousel-caption d-none d-md-block caption-bg-3">
               <h2>Diseña tu cocina a tu gusto</h2>
               <p className="fs-3">Cocinas Maderoom</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="../../../public/closet/4.png" className="d-block w-100 img-fluid" alt="..."/>
+            <img src={rutaP[3]} className="d-block w-100 img-fluid" alt="..."/>
             <div className="carousel-caption d-none d-md-block caption-bg-3">
               <h2>Diseña tu cocina a tu gusto</h2>
               <p className="fs-3">Cocinas Maderoom</p>
