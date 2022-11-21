@@ -11,7 +11,7 @@ const rutaP = ["./LOGO/acer.jpg"]
 		<section className="acerca-de" id="acerca-de">
 			<div className="contenedor">
 				<div className="foto">
-					<img className='img-fuid' src={ruta[0]} alt="imagen acerca de" />
+					<img className='img-fuid' src={rutaP[0]} alt="imagen acerca de" />
 				</div>
 				<div className='nosotros'>
 					{/* <div className='d-flex justify-content-center animate__animated animate__fadeInRight'>
