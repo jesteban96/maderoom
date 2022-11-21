@@ -2,17 +2,18 @@ import { Link, NavLink } from "react-router-dom";
 
 export const NAVBARFIRT = () => {
 
-
+const ruta = ["../../../public/LOGO/logo3.png","../../../public/LOGO/menu4.png"]
+const rutaP = ["./LOGO/logo3.png","./LOGO/menu4.png"]
 
   return (
    <>
    <nav className="navbar navbar-dark  navbar-expand-lg  color-b">
               <div className="container-fluid">
                 
-                <a className="navbar-brand" href="#"><img src='../../../public/LOGO/logo3.png' alt="MadeRoom"  /></a>
+                <a className="navbar-brand" href="#"><img src={rutaP[0]} alt="MadeRoom"  /></a>
     
                      <button className="navbar-toggler flota" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                     <img src='../../../public/LOGO/menu4.png' alt="MadeRoom"  />
+                     <img src={rutaP[1]} alt="MadeRoom"  />
                     </button>
 
                     <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
