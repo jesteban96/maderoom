@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import StepWizard from "react-step-wizard";
 import { InstanceDemo, Step1, Step2, Step3 } from "./wizard";
 

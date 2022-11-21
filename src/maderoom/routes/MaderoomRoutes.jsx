@@ -10,15 +10,15 @@ export const MaderoomRoutes = () => {
     return (
         <>
             <Navbar/>
-            <Carrousel/>
+            {/* <Carrousel/>
             <Slogan/>
             <ACERCADE/>
-            <PROYECTOS/>
+            <PROYECTOS/> */}
             <div >
 
                 <Routes>
-                   {/*  <Route path="" element={<MaderoomApp/>}/> */}
-                    <Route path="Contactanos" element={<Contactanos/>}/>
+                    <Route path="/" element={<MaderoomApp/>}/>
+                    {/* <Route path="Contactanos" element={<Contactanos/>}/> */}
                 </Routes>
                 
             </div>
