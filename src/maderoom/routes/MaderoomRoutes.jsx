@@ -3,7 +3,7 @@ import { ACERCADE } from "../../ui/components/Acercade";
 import { Foother } from "../../ui/components/Foother";
 import { Navbar } from "../../ui/components/Navbar"
 // import { PROYECTOS } from "../../ui/components/Proyectos";
-// import { Carrousel, Contactanos, Slogan } from "../components";
+import { Carrousel, Contactanos, Slogan } from "../components";
 import { MaderoomApp} from "../MaderoomApp";
 
 export const MaderoomRoutes = () => {
@@ -17,8 +17,11 @@ export const MaderoomRoutes = () => {
             <div >
 
                 <Routes>
-                    <Route path="" element={<MaderoomApp/>}/>
-                    {/* <Route path="Contactanos" element={<Contactanos/>}/> */}
+
+                    <Route path="/" element={<MaderoomApp/>}/>
+
+                    <Route path="/Contactanos" element={<Contactanos/>}/>
+
                 </Routes>
                 
             </div>
