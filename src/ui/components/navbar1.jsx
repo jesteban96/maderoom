@@ -2,8 +2,8 @@ import { Link, NavLink } from "react-router-dom";
 
 export const NAVBARFIRT = () => {
 
-const ruta = ["../../../public/LOGO/logo3.png","../../../public/LOGO/menu4.png"]
-const rutaP = ["./LOGO/logo3.png","./LOGO/menu4.png"]
+const ruta = ["../../../public/LOGO/logo3.png","../../../public/LOGO/menu4.png", "../../../public/LOGO/user2.png"]
+const rutaP = ["./LOGO/logo3.png","./LOGO/menu4.png","./LOGO/user2.png"]
 
   return (
    <>
@@ -56,7 +56,7 @@ const rutaP = ["./LOGO/logo3.png","./LOGO/menu4.png"]
                                     <h5 className="offcanvas-title d-grid gap-2 col-6 mx-auto " id="offcanvasDarkNavbarLabel"><button type="button" className="btn btn-success">LOGIN</button></h5>
  
                                   </div>
-                                  <div className="offcanvas user d-flex justify-content-end flex-row "><div className=''><img src='../../../public/LOGO/user2.png' alt=""  /> </div></div>
+                                  <div className="offcanvas user d-flex justify-content-end flex-row "><div className=''><img src={rutaP[2]} alt=""  /> </div></div>
                           
                           </div>
                     </div>

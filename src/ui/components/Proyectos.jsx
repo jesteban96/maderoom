@@ -12,7 +12,10 @@ export const PROYECTOS = () => {
                      { id:2, url: "../../../../public/closet/c2/1.png", url2: "../../../../public/closet/c2/2.png", url3: "../../../../public/closet/c2/3.png" },
                      { id:3, url: "../../../../public/closet/c3/1.png", url2: "../../../../public/closet/c3/2.png", url3: "../../../../public/closet/c3/3.png" }
         ]
-       
+        const closet1P =[ { id:1, url: "./closet/c1/1.png", url2: "./closet/c1/2.png", url3: "./closet/c1/3.png"},
+        { id:2, url: "./closet/c2/1.png", url2: "./closet/c2/2.png", url3: "./closet/c2/3.png" },
+        { id:3, url: "./closet/c3/1.png", url2: "./closet/c3/2.png", url3: "./closet/c3/3.png" }
+]   
   return (
     <>
     <section className='proyecto'>
@@ -26,7 +29,7 @@ export const PROYECTOS = () => {
         <div className="row  ">
              
               {
-                                    closet1.map((e)=>{
+                                    closet1P.map((e)=>{
                                         return (<ITEMCARD key={e.id} e={e}/>)
                                     })
                                 }

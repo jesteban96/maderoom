@@ -2,13 +2,16 @@ import React from 'react'
 /* import React from '' */
 
 export const ACERCADE = () => {
+
+	const ruta = ["../../../public/LOGO/acer.jpg"]
+const rutaP = ["./LOGO/acer.jpg"]
   return (
     <>
     
 		<section className="acerca-de" id="acerca-de">
 			<div className="contenedor">
 				<div className="foto">
-					<img className='img-fuid' src='../../../LOGO/acer.jpg' alt="imagen acerca de" />
+					<img className='img-fuid' src={ruta[0]} alt="imagen acerca de" />
 				</div>
 				<div className='nosotros'>
 					{/* <div className='d-flex justify-content-center animate__animated animate__fadeInRight'>
