@@ -28,7 +28,7 @@ const rutaP = ["./LOGO/logo3.png","./LOGO/menu4.png","./LOGO/user2.png"]
 
                                     <li className="nav-item">
                                   {/*  active */}
-                                      <a className=" nav-link  color " aria-current="page" href="#">Home</a>
+                                      <a className=" nav-link active color " aria-current="page"  to={'/Home'}>Home</a>
                                     </li>
                                     <li className="nav-item">
                                       <a className="nav-link color" href="#acerca-de">Nosotros</a>
